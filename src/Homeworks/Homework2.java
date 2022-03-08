@@ -24,7 +24,7 @@ public class Homework2 {
     //2
         short daysInLeapYear =366;
 
-        System.out.println("\nThe maximum number days in a year is" + daysInLeapYear + " and it's called a Leap Year");
+        System.out.println("\nThe maximum number days in a year is " + daysInLeapYear + " and it's called a Leap Year");
 
     //3
         int numberOfEmployees = 1608000;
@@ -42,7 +42,7 @@ public class Homework2 {
 
         System.out.println("\nAverage mortgage rate in US for 30 year is " + averageMortgageRate + "%");
 
-   //6
+    //6
 
         double bankAccountBalance = 100000.99;
 
@@ -66,9 +66,6 @@ public class Homework2 {
         String myLastName = "Berdova";
 
         System.out.println("\nMy full name is " + myName +" "+ myLastName);
-
-
-
 
     }
 
