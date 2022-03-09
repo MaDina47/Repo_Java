@@ -51,7 +51,7 @@ public class Homework2 {
     //7
         boolean technosoftStudent = true;
 
-        System.out.println("\nAre you Technosoft student? ----> " + technosoftStudent);
+        System.out.println("\nAre you Technosoft student? ---> " + technosoftStudent);
 
     //8
 
