@@ -65,16 +65,23 @@ public class Homework4 {
         boolean task3ContainsKing = task3LowerCase.contains("king");
         System.out.println("\n" + task3ContainsKing);
 
+        String task3UpperCase = task3.toUpperCase();
+        int indexOfEW = task3UpperCase.indexOf("EW");
+        System.out.println(indexOfEW);
 
-        String task4 = "kINg";
-        String task5 = "QUEEN";
-        /**
+//
+
+        /** Task 4
          * Convert the value in task4 variable into Titlecase
          *      (FirstCharacterUppercase and rest all in lowercase)
          *
          * "kINg" -> "King"
          * "QUEEN" -> "Queen"
          */
+
+        String task4 = "kINg";
+        String task5 = "QUEEN";
+
         String task4_LC = task4.toLowerCase();
         System.out.println("\n" + task4_LC);
         String task4With_UpCK = task4_LC.replace("k","K");
