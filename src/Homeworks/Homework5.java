@@ -1,8 +1,6 @@
 package Homeworks;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
-import java.util.Locale;
 
 public class Homework5 {
     public static void main(String[] args) {
@@ -112,18 +110,19 @@ public class Homework5 {
          * if the value is NOT divisible by 5 and 3, print "NOT divisible by 5 and 3"
          *
          */
-       // int x = 27;
-      //  if (x % 5 == 0);{
-        //     System.out.println("\n" + x + " is not divisible by 5");
+       int x = 27;
+      if (x % 5 == 0) {
+      System.out.println("\n" + x + " is not divisible by 5");
 
-       // }else if (x%3 == 0); {
-         //   System.out.println("\n" + x + " is divisible by 3");
-       // }else if (x%5 == 0 && x%3 == 0); {
-          //  System.out.println("\nDivisible only by 3");
+      } else if (x%3 == 0) {
+          System.out.println("\n" + x + " is divisible by 3");
 
-      //  } else {
-      //      System.out.println("Not divisible by 5 and 3");
-       // }
+      }else if (x%5 == 0 && x%3 == 0) {
+          System.out.println("\nDivisible by 5 & 3");
+
+      } else {
+        System.out.println("Not divisible by 5 and 3");
+        }
 
 
         /**
@@ -147,6 +146,20 @@ public class Homework5 {
          * if max-score is invalid,  print "Invalid max score entered"
          *
          */
+/**
+         int maxScore = 100;
+         double student1 = 99.2;
+         double student2 = -1;
+         double student3 = 69.9;
+
+
+
+         double studScore = (92.2/maxScore)*100;
+           System.out.println(studScore);
+
+
+       // double studentScore =  (studscore <= maxScore);
+
 
         /**
          * Q6:
@@ -159,6 +172,24 @@ public class Homework5 {
          *
          */
 
+       // String[] words = {"healthy", "speak", "learning", "king", "Joy", "smile", "learn", "live" , "give", "living standard", "life"};
 
-    }
+
+       // for (int i = 0; i > words.length -1; i++) {
+
+           // System.out.println("\n" + words[i]);
+       // } if (words.length > 5) {
+           // System.out.println("\n" + words[i]);
+
+        //boolean contains_l = ((words[1]).contains("l"));
+        // System.out.println("\n" + contains_l );
+
+        }
+
 }
+
+
+
+
+
+
