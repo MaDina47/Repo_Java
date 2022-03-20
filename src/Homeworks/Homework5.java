@@ -148,12 +148,12 @@ public class Homework5 {
         double studentB = 96.1;
         double studScoreB = (studentB / maxScore) * 100;
 
-          if (studScoreB >= 91) {
-              System.out.println("\n StudentB Grade is A ");
+         if (studScoreB >= 91 && studScoreB <= maxScore) {
+           System.out.println("\n StudentB Grade is A ");
           }
-          else if (studScoreB < 0) {
+           if (studScoreB < 0 ) {
                 System.out.println("\nInvalid student score entered");
-          } else if (studScoreB > maxScore) {
+          } else  {
               System.out.println("\nInvalid max score entered");
             }
 
