@@ -113,13 +113,11 @@ public class Homework5 {
         int x = 27;
         if (x % 5 == 0) {
             System.out.println("\n" + x + " is not divisible by 5");
-
         } else if (x % 3 == 0) {
             System.out.println("\n" + x + " is divisible by 3");
 
         } else if (x % 5 == 0 && x % 3 == 0) {
             System.out.println("\nDivisible by 5 & 3");
-
         } else {
             System.out.println("Not divisible by 5 and 3");
         }
@@ -129,7 +127,6 @@ public class Homework5 {
          * Q5:
          * Create two variables to store student-score and max-score (max score a student can get)
          * based on student percentage, print the grade:
-         *
          * 91-100%      -> Grade A
          * 81-90.99%    -> Grade B
          * 71-80.99%    -> Grade C
@@ -146,47 +143,47 @@ public class Homework5 {
          * if max-score is invalid,  print "Invalid max score entered"
          *
          */
-/**
- int maxScore = 100;
- double student1 = 99.2;
- double student2 = -1;
- double student3 = 69.9;
 
+        int maxScore = 100;
+        double studentB = 96.1;
+        double studScoreB = (studentB / maxScore) * 100;
 
+          if (studScoreB >= 91) {
+              System.out.println("\n StudentB Grade is A ");
+          }
+          else if (studScoreB < 0) {
+                System.out.println("\nInvalid student score entered");
+          } else if (studScoreB > maxScore) {
+              System.out.println("\nInvalid max score entered");
+            }
 
- double studScore = (92.2/maxScore)*100;
- System.out.println(studScore);
-
-
- // double studentScore =  (studscore <= maxScore);
-
-
- /**
- * Q6:
- * String[] words = {"healthy", "speak", "learning", "king", "Joy", "smile", "learn", "live" , "give", "living standard", "life"}
- * print the values which has length greater than 5 and starts with l
- *
- * expected ans:
- * learning
- * living standard
- *
- */
+        /**
+         * Q6:
+         * String[] words = {"healthy", "speak", "learning", "king", "Joy", "smile", "learn", "live" , "give", "living standard", "life"}
+         * print the values which has length greater than 5 and starts with l
+         *
+         * expected ans:
+         * learning
+         * living standard
+         *
+         */
 
         String[] words = {"healthy", "speak", "learning", "king", "Joy", "smile", "learn", "live", "give", "living standard", "life"};
 
-           for (int i = 0; i < words.length; i++) {
+        for (int i = 0; i < words.length; i++) {
             //System.out.println("\n" + words[i]);
-            if (words[i].length() >5 && words[i].startsWith("l")){
-                System.out.println(words[i]);
+            if (words[i].length() > 5 && words[i].startsWith("l")) {
+                System.out.println("\n" + words[i]);
+
             }
-
         }
 
-
-
-        }
 
     }
+}
+
+
+
 
 
 
