@@ -2,6 +2,8 @@ package Homeworks;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class Homework9 {
     public static void main(String[] args) {
@@ -120,7 +122,8 @@ public class Homework9 {
                  // 3
        public static int[] removeInt (int[] input, int remove){
 
-           ArrayList<Integer> integer = new ArrayList<>();
+          ArrayList<Integer> integer = new ArrayList<Integer>();
+         // List<Integer> integer1 = Arrays.stream(input).boxed().collect(Collectors.toList());
 
            for (int i = 0; i < input.length; i++) {
                integer.add(input[i]);
