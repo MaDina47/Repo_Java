@@ -15,7 +15,8 @@ public class Homework10 {
          * create a String-Set using String-List
          * compare size of Set and List
          */
-
+        String[] names = {"Madina", "Masrur", "George", "Gunel", "Madina"};
+        System.out.println(isDuplicate(names));
         /**
          * Question 2:
          * Create a method that would return the duplicate values of a given-String-Array (ignore the case)
